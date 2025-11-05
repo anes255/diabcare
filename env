@@ -1,0 +1,19 @@
+# Server Configuration
+PORT=3000
+
+# JWT Secret Key (CHANGE THIS IN PRODUCTION!)
+# Generate a secure random string for production
+JWT_SECRET=your-super-secret-jwt-key-change-this-in-production-use-random-string
+
+# MongoDB Connection - MongoDB Atlas (Cloud Database)
+MONGODB_URI=mongodb+srv://gaheranes1_db_user:anesaya75@cluster0.mnwc2rk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+# Environment
+NODE_ENV=development
+
+# CORS Configuration (optional)
+# ALLOWED_ORIGINS=http://localhost:8081,https://yourdomain.com
+
+# IMPORTANT SECURITY NOTE:
+# After testing, please change your MongoDB password in Atlas dashboard
+# Current password was shared publicly and should be updated for security
